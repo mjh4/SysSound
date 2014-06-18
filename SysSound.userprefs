@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SysSound_iOS/Info.plist">
+    <Files>
+      <File FileName="SysSound_iOS/SysSound_iOSViewController.cs" Line="51" Column="5" />
+      <File FileName="../SoundTest/SoundTest_iOS/SoundTest_iOSViewController.cs" Line="1" Column="1" />
+      <File FileName="SysSound_iOS/SysSound_iOSViewController.designer.cs" Line="1" Column="1" />
+      <File FileName="SysSound_iOS/Entitlements.plist" />
+      <File FileName="SysSound_iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="SysSound_iOS/Info.plist" />
+      <File FileName="SysSound_iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="../SoundTest/SoundTest_iOS/Extensions/NSBundleExtensions.cs" Line="1" Column="1" />
+      <File FileName="../SoundTest/SoundTest_iOS/AppDelegate.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

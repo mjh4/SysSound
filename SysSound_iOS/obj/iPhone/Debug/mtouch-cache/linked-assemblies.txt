@@ -1,0 +1,4 @@
+/Users/Administrator/Projects/SysSound/SysSound_iOS/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/Administrator/Projects/SysSound/SysSound_iOS/obj/iPhone/Debug/mtouch-cache/Link/System.dll
+/Users/Administrator/Projects/SysSound/SysSound_iOS/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/Administrator/Projects/SysSound/SysSound_iOS/obj/iPhone/Debug/mtouch-cache/Link/SysSound_iOS.exe
