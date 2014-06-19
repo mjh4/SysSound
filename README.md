@@ -14,27 +14,27 @@ Recipe
         <li><p> First, add your desired sound file to the project directory, making sure to set the Build Action to Compile.</p>
         </li>
         
-        <li><p> Next, declare a NSUrl variable and a SystemSound variable in our <code>SysSound_iOSViewController</code> class.</p>
+        <li><p> Next, declare a <code>NSUrl</code> variable and a <code>SystemSound</code> variable in our <code>SysSound_iOSViewController</code> class.</p>
         
         <code> NSUrl url;
 		SystemSound newSound;</code>
         
-        <li><p> Once the variables are declared, assign a NSUrl to the <code>url</code> variable to reference your sound file in your <code>ViewDidLoad()</code> method:</p>
+        <li><p> Once the variables are declared, assign a <code>NSUrl</code> to the <code>url</code> variable to reference your sound file in your <code>ViewDidLoad()</code> method:</p>
         
         <pre><code>url = NSUrl.FromFilename ("Sounds/tap.aif");</code></pre>
         </li>
         
-        <li><p> Next, assign a SystemSound instance to <code>newSound</code> using our <code>url</code> variable:</p>
+        <li><p> Next, assign a <code>SystemSound</code> instance to <code>newSound</code> using our <code>url</code> variable:</p>
         
         <pre><code>newSound = new SystemSound (url);</code></pre>
         </li>
         
-        <li><p> To play the sound, which in this case occurs when the <code>playSystemButton</code> is pressed, call <code>PlaySystemSound()</code> on our SystemSound instance.</p>
+        <li><p> To play the sound, which in this case occurs when the <code>playSystemButton</code> is pressed, call <code>PlaySystemSound()</code> on our <code>SystemSound</code> instance.</p>
         
         <pre><code>newSound.PlaySystemSound(); </code></pre>
         </li>
             
-         <li><p> To play an alert, which plays the sound as well as vibrates the device, call <code>PlayAlertSound()</code> on our SystemSound instance.</p>
+         <li><p> To play an alert, which plays the sound as well as vibrates the device, call <code>PlayAlertSound()</code> on our <code>SystemSound</code> instance.</p>
         
         <pre><code>newSound.PlaySystemSound(); </code></pre>
         </li>
@@ -44,10 +44,10 @@ Recipe
         <pre><code>SystemSound.Vibrate.PlaySystemSound ();</code></pre>
         </li>
         
-        <li><p>Finally, the ensure the NSUrl you created is properly handled in memory, dispose of it in the <code>ViewWillDisappear(bool animated)</code>  </p>
+        <li><p>Finally, the ensure the <code>NSUrl</code> you created is properly handled in memory, dispose of it in the <code>ViewWillDisappear(bool animated)</code>  </p>
 
         <pre><code>	if (url != null)
-url.Dispose (); </code></pre>
+   url.Dispose (); </code></pre>
         </li>
                     
         
