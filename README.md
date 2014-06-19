@@ -47,7 +47,9 @@ Recipe
         <li><p>Finally, the ensure the NSUrl you created is properly handled in memory, dispose of it in the <code>ViewWillDisappear(bool animated)</code>  </p>
 
         <pre><code>	if (url != null)
-				    url.Dispose (); </code 
+				    url.Dispose (); </code></pre>
+        </li>
+                    
         
 </ol>
 
